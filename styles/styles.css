@@ -1,10 +1,15 @@
+:root {
+    background-color: #000;
+    
+
+}
 main {
     max-width: 840px;
 }
 
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(#262267);
+    padding: var(10px);
 }
 
 
