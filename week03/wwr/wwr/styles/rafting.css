@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #4D75F9;  
+    --secondary-color: #BF2237; 
+    --accent1-color: #FFFFFF;
+    --accent2-color: #534528; 
+    --text-color: #BF2237
+    
+    
+
+}
+h1,h2,h3 {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+p {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: italic; 
+}
+
+.logo-box a {
+    text-decoration: none;
+
+}
+
+.hero-background a {
+    text-decoration: none;
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
