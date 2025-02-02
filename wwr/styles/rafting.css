@@ -27,6 +27,7 @@ main {
     position: relative; 
     height: 500px; 
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .hero-image {
@@ -125,14 +126,107 @@ p {
     text-decoration: none;
 }
 
-.sociallinks a {
-    text-decoration: none;
-    transition: color 0.3s ease; 
-}
-
-.sociallinks a:hover {
-    color: var(--primary-color); 
-}
 html {
     background-color: #4D75F9;
 }
+
+footer {
+    background-color: #534528; /* sets the background color of the footer */
+    padding: 2rem; /* adds padding around the footer content */
+    border: 1px solid #ccc; /* adds a border to the footer */
+    border-radius: 8px; /* rounds the corners of the footer */
+    color: #fff; /* sets the text color to white */
+  }
+  
+  .footer-content {
+    display: flex; /* uses flexbox for layout */
+    justify-content: space-between; /* distributes space between text and social links */
+    align-items: center; /* vertically aligns text and social links */
+    max-width: 960px; /* sets a maximum width for the footer content */
+    margin: 0 auto; /* centers the footer content horizontally */
+  }
+  
+  .sociallinks {
+    display: flex; /* uses flexbox for layout of social links */
+    gap: 1rem; /* adds space between social links */
+  }
+  
+  /*this class indicate the label type "a" inside element that are using the class sociallinks will be afected*/
+  .sociallinks a {
+    display: inline-block; /* makes the social link elements behave as inline blocks */
+  }
+  
+  /*this class indicate the label type "img" inside element that are using the class sociallinks will be afected*/
+  .sociallinks img {
+    width: 40px; /* sets the width of the social media icons */
+    height: 40px; /* sets the height of the social media icons */
+    border-radius: 5px; /* rounds the corners of the social media icons */
+    transition: transform 0.2s ease-in-out; /* adds a transition for hover effect */
+  }
+  
+ 
+  /*this line indicate the label type "p" inside label type "footer" will be afected*/
+  footer p {
+    margin: 0; /* removes default margin from the paragraph */
+  }
+  
+  .adventure {
+    padding: 2rem; /* adds padding around the adventure section */
+    border: 1px solid #f92844; /* adds a border to the adventure section */
+    border-radius: 8px; /* rounds the corners of the adventure section */
+    margin-bottom: 20px; /* adds margin below the adventure section */
+  }
+  
+  /*this class indicate all elements that using class "image-container" inside element that are using the class "adventure" will be afected*/
+  .adventure .image-container {
+    display: flex; /* uses flexbox for layout of images */
+    flex-wrap: nowrap; /* prevents images from wrapping to the next line */
+    justify-content: space-between; /* distributes space between images */
+    gap: 10px; /* adds space between images */
+  }
+  
+  /*this is similar to the previus class but this indicate only afect label type "img"*/
+  .adventure .image-container img {
+    width: 300px; /* sets the width of the images */
+    height: auto; /* allows the height to adjust automatically */
+  }
+  
+  .adventure h2 {
+    text-align: center; /* centers the heading */
+  }
+  
+  .history {
+    padding: 2rem; /* adds padding around the history section */
+    border: 1px solid #f92844; /* adds a border to the history section */
+    border-radius: 8px; /* rounds the corners of the history section */
+    margin-bottom: 20px; /* adds margin below the history section */
+  }
+  
+  .history h2 {
+    text-align: center; /* centers the heading */
+    margin-bottom: 1rem; /* adds margin below the heading */
+    color: #FFFFFF; /* sets the heading color */
+  }
+  
+  .history-content {
+    display: flex; /* uses flexbox for layout of content */
+    gap: 2rem; /* adds space between content columns */
+  }
+  
+  .text-column {
+    flex: 1; /* makes the text columns take up equal width */
+  }
+  
+  .image-column {
+    flex: 1; /* makes the image column take up equal width */
+    display: flex; /* uses flexbox for layout within the image column */
+    justify-content: center; /* centers the image horizontally */
+    align-items: center; /* centers the image vertically */
+  }
+  
+  .image-column img {
+    max-width: 100%; /* makes the image responsive */
+    height: auto; /* allows the height to adjust automatically */
+    border-radius: 8px; /* rounds the corners of the image */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* adds a shadow to the image */
+  }
