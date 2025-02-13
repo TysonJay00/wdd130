@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lato", serif;
+    font-size: 1.2em;
+    color:aqua
+    background: #f0f8ff;
+}
+header {
+    margin: 0 auto;
+    width: 500px;
+}
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color:blueviolet;
+    text-align: center;
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(red, green, blue)
+    border-radius: 0.5rem;
+    background-color: #f0f8ff
+    display: grid;
+}
+fieldset {
+    display:grid;
+    gr+++++++++++++++++id-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(red, green, blue)
+    padding: 1rem;
+
+}
