@@ -30,7 +30,7 @@ form {
 }
 fieldset {
     display:grid;
-    gr+++++++++++++++++id-gap: .5rem;
+    grid-gap: .5rem;
     margin: 1rem;
     border: 1px solid rgb(red, green, blue)
     padding: 1rem;
